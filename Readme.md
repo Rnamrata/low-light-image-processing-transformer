@@ -30,20 +30,20 @@ This project focuses on the Low-Light Image Processing Transformer, a neural net
 
 ## Architecture
 
-    * Horizontal/Vertical-Intensity (HVI) Transformation
-        1. Intensity Map: Derives the maximum value from RGB channels.
-        2. HV Color Map: Measures color reflectance with adjustable density.
-        3. Trainable HVI Map: Combines intensity and HV color maps for reversible transformation.
+    1. Horizontal/Vertical-Intensity (HVI) Transformation
+        * Intensity Map: Derives the maximum value from RGB channels.
+        * HV Color Map: Measures color reflectance with adjustable density.
+        * Trainable HVI Map: Combines intensity and HV color maps for reversible transformation.
     
-    * Color and Intensity Decoupling Network (CIDNet)
-        1. HV-way: Focuses on color information processing.
-        2. Intensity-way: Handles brightness adjustments for varied lighting scenarios.
-        3. LCA Module:
+    2. Color and Intensity Decoupling Network (CIDNet)
+        * HV-way: Focuses on color information processing.
+        * Intensity-way: Handles brightness adjustments for varied lighting scenarios.
+        * LCA Module:
             * Includes Cross-Attention Block (CAB), Intensity Enhance Layer (IEL), and Color Denoise Layer (CDL).
-            
-    * Fréchet Inception Distance (FID)
-        1. Compares feature distributions of generated and real images.
-        2. Lower FID indicates higher quality.
+
+    3. Fréchet Inception Distance (FID)
+        * Compares feature distributions of generated and real images.
+        * Lower FID indicates higher quality.
 
 ## Results
     Three model variants were evaluated.
