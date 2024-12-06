@@ -1,7 +1,7 @@
 # Low Light Image Processing Transformer
  
 ## Overview
-This project focuses on the Low-Light Image Processing Transformer, a neural network architecture designed to enhance images captured in low-light conditions. The study focuses on fine-tuning the hyperparameters of an existing model (HVI-CIDNet) designed to improve perceptual metrics. This is accomplished by using a stable diffusion approach to adjust the lighting of a source image instead of adding noise. This innovative model processes brightness and color features separately using a dual-path architecture. The project also introduces Fréchet Inception Distance (FID) as a new evaluation metric for image quality, alongside conventional metrics such as Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index Measurement (SSIM).
+This project focuses on the Low-Light Image Processing Transformer, a neural network architecture designed to enhance images captured in low-light conditions. The study focuses on fine-tuning the hyperparameters of an existing model (HVI-CIDNet - https://github.com/Fediory/HVI-CIDNet) designed to improve perceptual metrics. This is accomplished by using a stable diffusion approach to adjust the lighting of a source image instead of adding noise. This innovative model processes brightness and color features separately using a dual-path architecture. The project also introduces Fréchet Inception Distance (FID) as a new evaluation metric for image quality, alongside conventional metrics such as Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index Measurement (SSIM).
 
 ## Key Features
 1. Dual-Path Architecture:
