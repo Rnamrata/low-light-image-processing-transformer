@@ -56,6 +56,6 @@ This project focuses on the Low-Light Image Processing Transformer, a neural net
 The Low-Light Image Processing Transformer demonstrates significant improvement in image enhancement tasks under low-light conditions. While small adjustments can be time-consuming, increasing model complexity improves performance. Future goals include integrating differentiable FID in the loss function and leveraging advanced techniques like LiDAR for improved accuracy and precision.
 
 ## References
-Dataset: Kaggle LOL Dataset [https://www.kaggle.com/datasets/soumikrakshit/lol-dataset]
-HVI-CIDNet: You Only Need One Color Space: An Efficient Network for Low-light Image Enhancement [https://github.com/Fediory/HVI-CIDNet]
-pytorch-frechet-inception-distance: Fréchet Inception Distance (FID) for Pytorch [https://github.com/hukkelas/pytorch-frechet-inception-distance]
+1. Dataset: Kaggle LOL Dataset [https://www.kaggle.com/datasets/soumikrakshit/lol-dataset]
+2. HVI-CIDNet: You Only Need One Color Space: An Efficient Network for Low-light Image Enhancement [https://github.com/Fediory/HVI-CIDNet]
+3. pytorch-frechet-inception-distance: Fréchet Inception Distance (FID) for Pytorch [https://github.com/hukkelas/pytorch-frechet-inception-distance]
